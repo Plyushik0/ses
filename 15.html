@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    for (let A = 1; A < 1000; A++){
+        let f = true
+        for (let x = 1; x < 10000; x++){
+            if ((40 % A == 0 && !(x % A != 0 && x % 54 == 0) || x % 72 !=0) == false) {
+                f = false
+                break
+            }
+        }
+        if (f == true) {
+            console.log(A)
+        }
+    }
+    
+
+    </script>
+</body>
+</html>

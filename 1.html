@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+console.log("X Y Z W")
+for (let x of [false, true]) {
+    for (let y of [false, true]) {
+        for (let z of [false, true]) {
+            for (let w of [false, true]) {
+                if (!y && x && (!z || w) == true) {
+                console.log(Number(x),Number(y),Number(z),Number(w))
+                }
+                }
+            }   
+        }
+    }
+
+
+
+
+
+    </script>
+</body>
+</html>
